@@ -25,6 +25,7 @@ import { useRouter } from "next/navigation";
 import { auth } from "../firebase/firebase";
 import { firestore } from "@/firebase/firebase";
 import { collection, query, getDocs, getDoc, setDoc, doc, deleteDoc } from "firebase/firestore";
+import RecipeGen from "./RecipeGen";
 
 export function Pantry() {
 
@@ -287,8 +288,11 @@ export function Pantry() {
                 </tbody>
               </table>
             </div>
+            
           </div>
+          
         </div>
+        <RecipeGen items={pantry} />
       </div>
       </>
   );
