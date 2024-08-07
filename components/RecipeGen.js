@@ -36,7 +36,6 @@ export default function RecipeGen({items}) {
         <div
         class="rounded-lg border bg-card text-card-foreground shadow-sm md:max-w-[600px] lg:max-w-[800px]"
         data-v0-t="card"
-        style={{width: 135 + '%', marginLeft: -17.5 + '%'}}
         >
             <div class="flex flex-col space-y-1.5 p-6">
                 <h3 class="whitespace-nowrap text-2xl font-semibold leading-none tracking-tight">Recipe Generator</h3>

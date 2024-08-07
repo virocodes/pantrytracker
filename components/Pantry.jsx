@@ -144,11 +144,10 @@ export function Pantry() {
     <>
       
       <div class="grid gap-8 mx-auto px-4 py-8 flex justify-center max-w-7xl">
-      <h1 class="text-2xl font-semibold" style={{marginLeft: 25 + '%'}}>Welcome, {user.displayName}</h1>
+      <h1 class="text-2xl font-semibold" >Welcome, {user.displayName}</h1>
         <div
           class="rounded-lg border bg-card text-card-foreground shadow-sm w-full"
           data-v0-t="card"
-          style={{width: 135 + '%', marginLeft: -17.5 + '%'}}
         >
           <div class="w-full flex flex-col space-y-1.5 p-6">
             <h3 class="whitespace-nowrap text-2xl font-semibold leading-none tracking-tight">Add New Item</h3>
@@ -199,7 +198,6 @@ export function Pantry() {
         <div
           class="rounded-lg border bg-card text-card-foreground shadow-sm md:max-w-[600px] lg:max-w-[800px]"
           data-v0-t="card"
-          style={{width: 135 + '%', marginLeft: -17.5 + '%'}}
         >
           <div class="flex flex-col space-y-1.5 p-6">
             <h3 class="whitespace-nowrap text-2xl font-semibold leading-none tracking-tight">Inventory</h3>
